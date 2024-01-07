@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="script.js" defer></script>
+    <title>Bloc de notas</title>
+</head>
+<body>
+    <header>
+        <h1>Todas las notas</h1>
+        <button class="add" onclick="addNote()"><strong>+ Add note</strong></button>
+        <button class="deleteAll" onclick="deleteAll()"><img src="https://cdn-icons-png.flaticon.com/512/18/18297.png" height="20px" width="20px"> <strong>Delete all</strong></button>
+    </header>
+    <div class="note">
+        <div class="tools">
+            <button class="edit"><img src="https://cdn.pixabay.com/photo/2019/04/08/20/26/pencil-4112898_1280.png" width="20px"></button>
+            <button class="delete" onclick="deleteNote(this)"><img src="https://cdn-icons-png.flaticon.com/512/18/18297.png" width="20px"></button>
+        </div>
+        <textarea class></textarea>
+    </div>
+</body>
+</html>
